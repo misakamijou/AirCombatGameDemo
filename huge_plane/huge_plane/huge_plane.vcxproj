@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="definition.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="diablo.cpp" />
+    <ClCompile Include="End.cpp" />
+    <ClCompile Include="enemy.cpp" />
+    <ClCompile Include="enemybullet.cpp" />
+    <ClCompile Include="item.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="mybullet.cpp" />
+    <ClCompile Include="myplane.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Partner.cpp" />
+    <ClCompile Include="pause.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\IMAGE2\BoostEnemy1.gif" />
+    <Image Include="res\IMAGE2\BoostEnemyBullet1.gif" />
+    <Image Include="res\IMAGE2\Boss1.gif" />
+    <Image Include="res\IMAGE2\Boss1Atked.gif" />
+    <Image Include="res\IMAGE2\BossBoom.gif" />
+    <Image Include="res\IMAGE2\BossBoom2.gif" />
+    <Image Include="res\IMAGE2\BossBullet2.gif" />
+    <Image Include="res\IMAGE2\BossBullet3.gif" />
+    <Image Include="res\IMAGE2\Enemy1.gif" />
+    <Image Include="res\IMAGE2\Enemy1Atked.gif" />
+    <Image Include="res\IMAGE2\Enemy2.gif" />
+    <Image Include="res\IMAGE2\Enemy2Atked.gif" />
+    <Image Include="res\IMAGE2\Enemy3.gif" />
+    <Image Include="res\IMAGE2\Enemy3Atked.gif" />
+    <Image Include="res\IMAGE2\EnemyBullet1.gif" />
+    <Image Include="res\IMAGE2\EnemyBullet2.gif" />
+    <Image Include="res\IMAGE2\EnemyBullet3.gif" />
+    <Image Include="res\IMAGE2\Gas.gif" />
+    <Image Include="res\IMAGE2\Gas2.gif" />
+    <Image Include="res\IMAGE2\Gas3.gif" />
+    <Image Include="res\IMAGE2\Hp.gif" />
+    <Image Include="res\IMAGE2\Item1.gif" />
+    <Image Include="res\IMAGE2\Item2.gif" />
+    <Image Include="res\IMAGE2\Mask_BoostEnemy1.gif" />
+    <Image Include="res\IMAGE2\Mask_BoostEnemyBullet1.gif" />
+    <Image Include="res\IMAGE2\Mask_Boss1.gif" />
+    <Image Include="res\IMAGE2\Mask_BossBoom.gif" />
+    <Image Include="res\IMAGE2\Mask_BossBoom2.gif" />
+    <Image Include="res\IMAGE2\Mask_BossBullet2.gif" />
+    <Image Include="res\IMAGE2\Mask_BossBullet3.gif" />
+    <Image Include="res\IMAGE2\Mask_Enemy1.gif" />
+    <Image Include="res\IMAGE2\Mask_Enemy2.gif" />
+    <Image Include="res\IMAGE2\Mask_Enemy3.gif" />
+    <Image Include="res\IMAGE2\Mask_EnemyBullet1.gif" />
+    <Image Include="res\IMAGE2\Mask_EnemyBullet2.gif" />
+    <Image Include="res\IMAGE2\Mask_EnemyBullet3.gif" />
+    <Image Include="res\IMAGE2\Mask_Gas.gif" />
+    <Image Include="res\IMAGE2\Mask_Hp.gif" />
+    <Image Include="res\IMAGE2\Mask_Item1.gif" />
+    <Image Include="res\IMAGE2\Mask_Item2.gif" />
+    <Image Include="res\IMAGE2\Mask_MyBullet1.gif" />
+    <Image Include="res\IMAGE2\Mask_MyPlane.gif" />
+    <Image Include="res\IMAGE2\Mask_Partner1.gif" />
+    <Image Include="res\IMAGE2\MyBullet1.gif" />
+    <Image Include="res\IMAGE2\MyPlane.gif" />
+    <Image Include="res\IMAGE2\MyPlaneAtked.gif" />
+    <Image Include="res\IMAGE2\Partner1.gif" />
+    <Image Include="res\PlaneSample1.jpg" />
+    <Image Include="res\TON敌机.gif" />
+    <Image Include="res\TON敌机掩码图.gif" />
+    <Image Include="res\TON飞机受击.gif" />
+    <Image Include="res\先辈目力.gif" />
+    <Image Include="res\先辈目力掩码图.gif" />
+    <Image Include="res\恶臭战机.gif" />
+    <Image Include="res\恶臭战机受击.gif" />
+    <Image Include="res\恶臭战机掩码图.gif" />
+    <Image Include="res\敌机1子弹.gif" />
+    <Image Include="res\敌机1子弹掩码图.gif" />
+    <Image Include="res\爆炸.gif" />
+    <Image Include="res\爆炸掩码.gif" />
+    <Image Include="res\面接背景.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image1.bin" />
+    <None Include="image22.bin" />
+    <None Include="image23.bin" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{6CC199B7-5D33-42A4-A410-CD8F8966ACE4}</ProjectGuid>
+    <RootNamespace>hugeplane</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

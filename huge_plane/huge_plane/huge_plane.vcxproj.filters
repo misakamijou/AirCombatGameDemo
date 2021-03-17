@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="definition.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="myplane.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="enemybullet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mybullet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pause.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="diablo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="End.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="item.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Partner.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\PlaneSample1.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\先辈目力.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\恶臭战机.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\面接背景.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\恶臭战机掩码图.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\先辈目力掩码图.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\TON敌机.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\TON敌机掩码图.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\爆炸.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\爆炸掩码.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\TON飞机受击.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\敌机1子弹.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\敌机1子弹掩码图.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\恶臭战机受击.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\IMAGE2\Mask_MyPlane.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\IMAGE2\MyPlane.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\IMAGE2\MyPlaneAtked.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\IMAGE2\Enemy1.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\IMAGE2\Enemy1Atked.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\IMAGE2\Mask_Enemy1.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\IMAGE2\Enemy2.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\IMAGE2\Enemy2Atked.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\IMAGE2\Mask_Enemy2.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\IMAGE2\EnemyBullet2.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\IMAGE2\Mask_EnemyBullet2.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\IMAGE2\MyBullet1.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\IMAGE2\Mask_MyBullet1.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\IMAGE2\EnemyBullet1.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\IMAGE2\Mask_EnemyBullet1.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\IMAGE2\Enemy3.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\IMAGE2\Mask_Enemy3.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\IMAGE2\Enemy3Atked.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\IMAGE2\EnemyBullet3.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\IMAGE2\Mask_EnemyBullet3.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\IMAGE2\Gas.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\IMAGE2\Mask_Gas.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\IMAGE2\Item1.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\IMAGE2\Mask_Item1.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\IMAGE2\Partner1.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\IMAGE2\Mask_Partner1.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\IMAGE2\Hp.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\IMAGE2\Mask_Hp.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\IMAGE2\BoostEnemyBullet1.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\IMAGE2\Mask_BoostEnemyBullet1.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\IMAGE2\BoostEnemy1.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\IMAGE2\Mask_BoostEnemy1.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\IMAGE2\Boss1.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\IMAGE2\Mask_Boss1.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\IMAGE2\Boss1Atked.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\IMAGE2\Gas2.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\IMAGE2\Gas3.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\IMAGE2\BossBullet3.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\IMAGE2\Mask_BossBullet3.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\IMAGE2\BossBullet2.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\IMAGE2\Mask_BossBullet2.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\IMAGE2\BossBoom.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\IMAGE2\Mask_BossBoom.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\IMAGE2\BossBoom2.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\IMAGE2\Mask_BossBoom2.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\IMAGE2\Item2.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\IMAGE2\Mask_Item2.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image1.bin">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="image22.bin">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="image23.bin">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>
